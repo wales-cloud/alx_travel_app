@@ -1,8 +1,12 @@
-# ALX Travel App 0x00
+## API Endpoints
 
-This project defines models, serializers, and seed data for Listings, Bookings, and Reviews using Django.
+- `/api/listings/` - CRUD for listings
+- `/api/bookings/` - CRUD for bookings
+- `/swagger/` - API documentation (Swagger UI)
 
-## Features
-- Models for Listing, Booking, and Review
-- Seed script to populate the database
-- Django REST Framework serialization
+## How to Use
+
+Run the server:
+
+```bash
+python manage.py runserver
